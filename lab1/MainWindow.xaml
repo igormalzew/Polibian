@@ -1,0 +1,142 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="lab1.MainWindow"
+        Title="Полибианский квадрат" Height="476" Width="530.6" ResizeMode="CanMinimize">
+    <Window.Resources>
+        <Style x:Key="ButtonStyle1" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle">
+                <Setter.Value>
+                    <Style>
+                        <Setter Property="Control.Template">
+                            <Setter.Value>
+                                <ControlTemplate>
+                                    <Rectangle Margin="2" SnapsToDevicePixels="True" Stroke="#FFFCE187" StrokeThickness="1" StrokeDashArray="1 2"/>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Background" Value="#FFDDDDDD"/>
+            <Setter Property="BorderBrush" Value="#FF707070"/>
+            <Setter Property="Foreground" Value="#FFFCE187"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="True" OpacityMask="#FFFCE187" CornerRadius="10">
+                            <Border.BorderBrush>
+                                <ImageBrush/>
+                            </Border.BorderBrush>
+                            <ContentPresenter x:Name="contentPresenter" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" Focusable="True" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <!--<Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" TargetName="border" Value="#FFFCE187"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="#FFFCE187"/>
+                            </Trigger>-->
+                            <Trigger Property="IsDefaulted" Value="True">
+                                <Setter Property="BorderBrush" TargetName="border" Value="#FFFCE187"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="#FFFF8B00"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="ButtonStyle2" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle">
+                <Setter.Value>
+                    <Style>
+                        <Setter Property="Control.Template">
+                            <Setter.Value>
+                                <ControlTemplate>
+                                    <Rectangle Margin="2" SnapsToDevicePixels="True" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Background" Value="#FFDDDDDD"/>
+            <Setter Property="BorderBrush" Value="#FF707070"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="True" CornerRadius="15">
+                            <ContentPresenter x:Name="contentPresenter" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="True">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="border" Value="#FFBEE6FD"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="#FF3C7FB1"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" TargetName="border" Value="#FFC4E5F6"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="#FF2C628B"/>
+                            </Trigger>
+                            <Trigger Property="ToggleButton.IsChecked" Value="True">
+                                <Setter Property="Background" TargetName="border" Value="#FFBCDDEE"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="#FF245A83"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Background" TargetName="border" Value="#FFF4F4F4"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="#FFADB2B5"/>
+                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="#FF838383"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid Margin="0,0,-6.6,-2.4">
+        <TabControl x:Name="tabControl" HorizontalAlignment="Left" Height="439" VerticalAlignment="Top" Width="520" Background="#FFF6F6F6" Margin="-2,-2,0,0">
+            <TabItem Header="Шифрование">
+                <Grid Background="#FFF0F0F0" Margin="0,-28,0.4,-1">
+                    <Rectangle Fill="#FF71FF6D" HorizontalAlignment="Left" Height="76" Margin="8,147,0,0" Stroke="#FFFFA837" VerticalAlignment="Top" Width="499"/>
+                    <TextBox x:Name="txtInputInformation" HorizontalAlignment="Left" Height="82" Margin="8,54,0,0" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Width="498"/>
+                    <Label Content="Входная информация" HorizontalAlignment="Left" Margin="3,28,0,0" VerticalAlignment="Top" FontSize="14"/>
+                    <TextBox x:Name="txtOutputInformation" HorizontalAlignment="Left" Height="91" Margin="8,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="498"/>
+                    <Label Content="Результат" HorizontalAlignment="Left" Margin="3,226,0,0" VerticalAlignment="Top" FontSize="14"/>
+                    <TextBox x:Name="txtKey" HorizontalAlignment="Left" Height="23" Margin="16,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="484" Background="White" IsEnabled="False"/>
+                    <Label Content="Ключ" HorizontalAlignment="Left" Margin="11,150,0,0" VerticalAlignment="Top" FontSize="14"/>
+                    <Rectangle Fill="#FF71FF6D" HorizontalAlignment="Left" Height="63" Margin="7,368,0,0" Stroke="#FFFFA837" VerticalAlignment="Top" Width="499"/>
+                    <Button x:Name="btnEncrypt" Content="Шифровать" HorizontalAlignment="Left" Margin="25,375,0,0" VerticalAlignment="Top" Width="219" Height="51" Style="{DynamicResource ButtonStyle2}" Background="#FFFFA837" FontSize="20" Click="btnEncrypt_Click"/>
+                    <Button x:Name="btnDecrypt" Content="Расшифровать" HorizontalAlignment="Left" Margin="267,375,0,0" VerticalAlignment="Top" Width="219" Height="51" Style="{DynamicResource ButtonStyle2}" Background="#FFFFA837" FontSize="20" Click="btnDecrypt_Click"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="274,196,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="14"><Hyperlink x:Name="GenerationLink" Foreground="Black" Click="GenerationLink_Click"><Run Text="Генерация"/></Hyperlink></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="355,196,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="14"><Hyperlink x:Name="LoadLink" Foreground="Black" Click="LoadLink_Click"><Run Text="Загрузить"/></Hyperlink></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="432,196,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="14"><Hyperlink x:Name="SaveLink" Foreground="Black" Click="SaveLink_Click"><Run Text="Сохранить"/></Hyperlink></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="381,33,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="14"><Hyperlink x:Name="LoadFileLink" Foreground="Black" Click="LoadFileLink_Click"><Run Text="Загрузить из файла"/></Hyperlink></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="390,227,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="14"><Hyperlink x:Name="SaveFileLink" Foreground="Black" Click="SaveFileLink_Click"><Run Text="Сохранить в файл"/></Hyperlink></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="367,339,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="14"><Hyperlink x:Name="CryptoAnalysis" Foreground="Black" Click="CryptoAnalysis_Click"><Run Text="Криптоанализ текста"/></Hyperlink></TextBlock>
+                    <Rectangle HorizontalAlignment="Left" Height="23" Margin="16,173,0,0" Stroke="#FFFFA837" VerticalAlignment="Top" Width="484" StrokeThickness="2"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Криптоанализ">
+                <Grid Margin="2,0,-5.6,4.4">
+                    <TextBox x:Name="textByAnalysis" TextWrapping="Wrap" Margin="7,26,8.6,248.6"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="7,4,0,0" TextWrapping="Wrap" Text="Шифрованный текст" VerticalAlignment="Top" FontSize="14"/>
+                    <TextBox x:Name="AnalisysResult" TextWrapping="Wrap" Margin="7,187,9.6,75.6"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="7,163,0,0" TextWrapping="Wrap" Text="Результат декодирования" VerticalAlignment="Top" FontSize="14"/>
+                    <Button x:Name="btnDecrypt_Analisys" Content="Декодировать" HorizontalAlignment="Left" Margin="268,346,0,0" VerticalAlignment="Top" Width="219" Height="51" Style="{DynamicResource ButtonStyle2}" Background="#FFFFA837" FontSize="20" Click="btnDecrypt_Analisys_Click"/>
+                    <Button x:Name="dictionaryLoad" Content="Загрузка словаря" HorizontalAlignment="Left" Margin="25,346,0,0" VerticalAlignment="Top" Width="219" Height="51" Style="{DynamicResource ButtonStyle2}" Background="#FFFFA837" FontSize="20" Click="dictionaryLoad_Click"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

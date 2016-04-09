@@ -1,0 +1,49 @@
+F:\Учеба\8 семестр\Криптографические методы защиты информации\1 лаба Полибианский квадрат\lab1\lab1\bin\Debug\lab1.exe.config
+F:\Учеба\8 семестр\Криптографические методы защиты информации\1 лаба Полибианский квадрат\lab1\lab1\bin\Debug\lab1.exe
+F:\Учеба\8 семестр\Криптографические методы защиты информации\1 лаба Полибианский квадрат\lab1\lab1\bin\Debug\lab1.pdb
+F:\Учеба\8 семестр\Криптографические методы защиты информации\1 лаба Полибианский квадрат\lab1\lab1\obj\Debug\lab1.csprojResolveAssemblyReference.cache
+F:\Учеба\8 семестр\Криптографические методы защиты информации\1 лаба Полибианский квадрат\lab1\lab1\obj\Debug\MainWindow.baml
+F:\Учеба\8 семестр\Криптографические методы защиты информации\1 лаба Полибианский квадрат\lab1\lab1\obj\Debug\MainWindow.g.cs
+F:\Учеба\8 семестр\Криптографические методы защиты информации\1 лаба Полибианский квадрат\lab1\lab1\obj\Debug\App.g.cs
+F:\Учеба\8 семестр\Криптографические методы защиты информации\1 лаба Полибианский квадрат\lab1\lab1\obj\Debug\lab1_MarkupCompile.cache
+F:\Учеба\8 семестр\Криптографические методы защиты информации\1 лаба Полибианский квадрат\lab1\lab1\obj\Debug\lab1.g.resources
+F:\Учеба\8 семестр\Криптографические методы защиты информации\1 лаба Полибианский квадрат\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+F:\Учеба\8 семестр\Криптографические методы защиты информации\1 лаба Полибианский квадрат\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.Cache
+F:\Учеба\8 семестр\Криптографические методы защиты информации\1 лаба Полибианский квадрат\lab1\lab1\obj\Debug\lab1.exe
+F:\Учеба\8 семестр\Криптографические методы защиты информации\1 лаба Полибианский квадрат\lab1\lab1\obj\Debug\lab1.pdb
+F:\Учеба\8 семестр\Криптографические методы защиты информации\1 лаба Полибианский квадрат\project\lab1\lab1\bin\Debug\lab1.exe.config
+F:\Учеба\8 семестр\Криптографические методы защиты информации\1 лаба Полибианский квадрат\project\lab1\lab1\obj\Debug\lab1.exe
+F:\Учеба\8 семестр\Криптографические методы защиты информации\1 лаба Полибианский квадрат\project\lab1\lab1\obj\Debug\lab1.pdb
+F:\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\bin\Debug\lab1.exe.config
+F:\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\obj\Debug\lab1.exe
+F:\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\obj\Debug\lab1.pdb
+F:\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\bin\Debug\lab1.exe
+F:\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\bin\Debug\lab1.pdb
+F:\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\obj\Debug\lab1.csprojResolveAssemblyReference.cache
+F:\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\obj\Debug\MainWindow.baml
+F:\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\obj\Debug\MainWindow.g.cs
+F:\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\obj\Debug\App.g.cs
+F:\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\obj\Debug\lab1_MarkupCompile.cache
+F:\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\obj\Debug\lab1.g.resources
+F:\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\obj\Debug\lab1.Properties.Resources.resources
+F:\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\obj\Debug\lab1.csproj.GenerateResource.Cache
+D:\Фильмы\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\bin\Debug\lab1.exe.config
+D:\Фильмы\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\obj\Debug\lab1.exe
+D:\Фильмы\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\obj\Debug\lab1.pdb
+D:\Фильмы\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\bin\Debug\EntityFramework.dll
+D:\Фильмы\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Фильмы\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\bin\Debug\EntityFramework.xml
+D:\Фильмы\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\bin\Debug\EntityFramework.SqlServer.xml
+D:\Фильмы\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\obj\Debug\lab1.csprojResolveAssemblyReference.cache
+D:\Фильмы\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\obj\Debug\MainWindow.baml
+D:\Фильмы\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\obj\Debug\MainWindow.g.cs
+D:\Фильмы\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\obj\Debug\App.g.cs
+D:\Фильмы\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\obj\Debug\lab1_MarkupCompile.cache
+D:\Фильмы\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\obj\Debug\lab1.g.resources
+D:\Фильмы\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\obj\Debug\lab1.Properties.Resources.resources
+D:\Фильмы\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\obj\Debug\lab1.csproj.GenerateResource.Cache
+D:\Фильмы\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\bin\Debug\lab1.exe
+D:\Фильмы\Learn\8semester\Kripto\PolibianLab1\project\Polibian\lab1\bin\Debug\lab1.pdb
+D:\projects\Polibian\lab1\bin\Debug\lab1.exe.config
+D:\projects\Polibian\lab1\obj\Debug\lab1.exe
+D:\projects\Polibian\lab1\obj\Debug\lab1.pdb
